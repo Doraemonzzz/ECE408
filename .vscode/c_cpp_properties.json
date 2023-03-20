@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",             
+                "/usr/include/x86_64-linux-gnu/sys",
+                "/usr/local/cuda-11.2/include",
+                "/data/qinzhen/software/libwb",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}"
+            ],
+            "defines": [],
+            "browse":{
+                "path":[
+                    "/usr/include",
+                    "/usr/include/x86_64-linux-gnu/sys",
+                    "/usr/local/cuda-11.2/include",
+                    "/data/qinzhen/software/libwb"
+                ]
+            },
+            "compilerPath": "/usr/local/cuda-11.2/bin/nvcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
